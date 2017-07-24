@@ -1,0 +1,53 @@
+
+html{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  }
+.container{
+  background-color: black;
+  width: 90%;
+  margin:0 auto;
+}
+.header{
+  position:fixed;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height:69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-tea-cozy-logo.png");
+  background-repeat: no-repeat;
+  background-position: 10px 0px;
+  background-size: auto 50px;
+  z-index: 1;
+}
+.nav a{
+  color:seashell;
+  padding: 0px 20px;
+  text-decoration: underline;
+
+
+}
+.mission{
+  height:700px;
+  position: relative;
+  top:70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+}
+.featured{
+
+}
+.locations{
+
+}
+.footer{
+
+}
